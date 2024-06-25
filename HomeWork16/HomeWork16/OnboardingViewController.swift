@@ -43,9 +43,8 @@ extension OnboardingViewController: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "OnboardingCollectionViewCell", for: indexPath) as? OnboardingCollectionViewCell
         let step = onboardingSteps[indexPath.item]
         
-        cell?.titleLabel.text = step.title
-        cell?.descriptionLabel.text = step.description
-        cell?.stepLabel.text = step.step
+        cell?.custom(with: step)
+
         return cell ?? UICollectionViewCell.init()
         
     }

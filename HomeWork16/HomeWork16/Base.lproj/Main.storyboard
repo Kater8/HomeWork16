@@ -23,15 +23,16 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="VxR-bn-beE"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="l0p-rg-ICA">
-                                    <size key="itemSize" width="404" height="500"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="l0p-rg-ICA">
+                                    <size key="itemSize" width="0.0" height="500"/>
+                                    <size key="estimatedItemSize" width="0.0" height="500"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardingCollectionViewCell" id="Zwq-sl-Zop" customClass="OnboardingCollectionViewCell" customModule="HomeWork16" customModuleProvider="target">
-                                        <rect key="frame" x="5" y="0.0" width="404" height="568"/>
+                                        <rect key="frame" x="0.0" y="-34" width="404" height="568"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="sj5-4D-EXP">
                                             <rect key="frame" x="0.0" y="0.0" width="404" height="568"/>
