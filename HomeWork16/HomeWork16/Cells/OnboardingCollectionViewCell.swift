@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.swift
+//  OnboardingCollectionViewCell.swift
 //  HomeWork16
 //
 //  Created by K on 15.06.2024.

@@ -9,6 +9,4 @@ import Foundation
 
 struct MainCollectionItem {
     let title: String
-    //let color
 }
-
